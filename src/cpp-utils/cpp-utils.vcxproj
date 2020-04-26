@@ -155,6 +155,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="include\CppUtils.hpp" />
+    <ClInclude Include="include\Random.hpp" />
     <ClInclude Include="include\String.hpp" />
     <ClInclude Include="include\Vector.hpp" />
     <ClInclude Include="src\framework.h" />
@@ -167,6 +168,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="src\Random\Random.cpp" />
     <ClCompile Include="src\String\String.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
