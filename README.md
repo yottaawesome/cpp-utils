@@ -1,2 +1,3 @@
 # cpp-utils
-A repo to hold some basic utility for my C++ projects.
+
+A repo to hold some basic utility code for my C++ projects.
