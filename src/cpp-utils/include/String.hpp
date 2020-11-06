@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include <vector>
 
 namespace CppUtils::String
 {
@@ -10,4 +11,5 @@ namespace CppUtils::String
 	std::wstring LeftTrimCopy(std::wstring s);
 	std::wstring RightTrimCopy(std::wstring s);
 	std::wstring TrimCopy(std::wstring s);
+	std::vector<std::wstring> TokeniseString(const std::wstring& stringToTokenise, const std::wstring& delimiter);
 }
